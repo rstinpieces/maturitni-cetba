@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0; 
+}
+
+#celek {
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto; 
+    background-color: #649ad8;
+}
+
+#title {
+    font-size: large;
+}
+
+#lire {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: right;
+    width: 100%;
+    text-align: left;
+}
+
+#results {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    padding: 30px;
+}
+
+#requirements {
+    padding: 10px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+#list {
+    padding: 10px;  
+}
+
+#pic {
+    position: relative;
+    width: 100%; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+}
+
+#filter-panel {
+    max-width: 600px; 
+    width: 100%; 
+    margin: 0 auto; 
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+.filter-column {
+    width: 30%; 
+    max-height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: flex-start;
+}
+
+.filter-column .author-container {
+    max-height: 200px;  
+    overflow-y: auto;   
+    width: 100%;        
+    padding-right: 10px;
+}
+
+.filter-column .author-container p {
+    margin: 0;
+}
+
+#search {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#search input {
+    width: 45%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
