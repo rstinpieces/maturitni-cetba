@@ -19,29 +19,54 @@ const books = [
     {title: "Oliver Twist", author:"Dickens", century:"19.",genre:"próza"},
     {title:"Zločin a trest", author:"Dostojevský",century:"19.",genre:"próza"},
     {title:"Kytice",author:"Erben",century:"19.",genre:"poezie"},
-    {title:"Paní Bovaryová",author:"Flaubert",century:"19.",gerne:"próza"},
-    {title:"Revizor",author:"Gogol",century:"19.",gerne:"drama"},
-    {title:"Křest sv. Vladimíra",author:"Havlíček",century:"19.",gerne:"drama"},
-    {title:"Chrám Matky Boží v Paříži",author:"Hugo",century:"19.",gerne:"drama"},
-    {title:"Máj",author:"Mácha",century:"19.",gerne:"poezie"},
-    {title:"Kulička",author:"Maupassant",century:"19.",gerne:"próza"},
-    {title:"Maryša",author:"Mrštíkové",century:"19.",gerne:"próza"},
-    {title:"Babička",author:"Němcová",century:"19.",gerne:"próza"},
-    {title:"V zámku a podzámčí",author:"Němcová",century:"19.",gerne:"próza"},
-    {title:"Povídky malostranské",author:"Neruda",century:"19.",gerne:"próza"},
-    {title:"Balady a romance",author:"Neruda",century:"19.",gerne:"poezie"},
-    {title:"Havran + Filosofie básnické skladby",author:"Poe",century:"19.",gerne:"poezie"},
-    {title:"Evžen Oněgin",author:"Puškin",century:"19.",gerne:"próza"},
-    {title:"Kalibův zločin",author:"Rais",century:"19.",gerne:"próza"},
-    {title:"Quo Vadis",author:"Sienkiewicz",century:"19.",gerne:"próza"},
-    {title:"Kříž u potoka",author:"Světlá",century:"19.",gerne:"próza"},
-    {title:"Anna Kareninová",author:"Tolstoj",century:"19.",gerne:"próza"},
-    {title:"Strakonický dudák",author:"Tyl",century:"19.",gerne:"drama"},
-    {title:"Obraz Doriana Graye",author:"Wilde",century:"19.",gerne:"próza"},
-    {title:"Tereza Raquinová",author:"Zola",century:"19.",gerne:"próza"},
-    {title:"Popraviště",author:"Ajtmatov",century:"20.",gerne:"próza"},
-    {title:"Čekání na Godota",author:"Beckett",century:"20.",gerne:"drama"},
-    {title:"",author:"",century:"",gerne:""},
+    {title:"Paní Bovaryová",author:"Flaubert",century:"19.",genre:"próza"},
+    {title:"Revizor",author:"Gogol",century:"19.",genre:"drama"},
+    {title:"Křest sv. Vladimíra",author:"Havlíček",century:"19.",genre:"drama"},
+    {title:"Chrám Matky Boží v Paříži",author:"Hugo",century:"19.",genre:"drama"},
+    {title:"Máj",author:"Mácha",century:"19.",genre:"poezie"},
+    {title:"Kulička",author:"Maupassant",century:"19.",genre:"próza"},
+    {title:"Maryša",author:"Mrštíkové",century:"19.",genre:"próza"},
+    {title:"Babička",author:"Němcová",century:"19.",genre:"próza"},
+    {title:"V zámku a podzámčí",author:"Němcová",century:"19.",genre:"próza"},
+    {title:"Povídky malostranské",author:"Neruda",century:"19.",genre:"próza"},
+    {title:"Balady a romance",author:"Neruda",century:"19.",genre:"poezie"},
+    {title:"Havran + Filosofie básnické skladby",author:"Poe",century:"19.",genre:"poezie"},
+    {title:"Evžen Oněgin",author:"Puškin",century:"19.",genre:"próza"},
+    {title:"Kalibův zločin",author:"Rais",century:"19.",genre:"próza"},
+    {title:"Quo Vadis",author:"Sienkiewicz",century:"19.",genre:"próza"},
+    {title:"Kříž u potoka",author:"Světlá",century:"19.",genre:"próza"},
+    {title:"Anna Kareninová",author:"Tolstoj",century:"19.",genre:"próza"},
+    {title:"Strakonický dudák",author:"Tyl",century:"19.",genre:"drama"},
+    {title:"Obraz Doriana Graye",author:"Wilde",century:"19.",genre:"próza"},
+    {title:"Tereza Raquinová",author:"Zola",century:"19.",genre:"próza"},
+    {title:"Popraviště",author:"Ajtmatov",century:"20.",genre:"próza"},
+    {title:"Čekání na Godota",author:"Beckett",century:"20.",genre:"drama"},
+    {title:"Cizinec",author:"Camus",century:"20.",gnre:"próza"},
+    {title:"Jméno růže",author:"Eco",century:"20.",genre:"próza"},
+    {title:"Malý princ",author:"Exupery",century:"20.",genre:"próza"},
+    {title:"Velký Gatsby",author:"Fitzgerland",century:"20.",genre:"próza"},
+    {title:"Moc a sláva",author:"Green",century:"20.",genre:"próza"},
+    {title:"Hlava XXII",author:"Heller",century:"20.",genre:"próza"},
+    {title:"Stařec a moře",author:"Hemingway",century:"20.",genre:"próza"},
+    {title:"Duna",author:"Herbert",century:"20.",genre:"próza"},
+    {title:"Tisíce planoucích sluncí",author:"Hosseini",century:"20.",genre:"próza"},
+    {title:"Proměna",author:"Kafka",century:"20.",genre:"próza"},
+    {title:"Růže pro Algernon",author:"Keyes",century:"20.",genre:"próza"},
+    {title:"Horalka",author:"Moravia",century:"20.",genre:"próza"},
+    {title:"Očista",author:"Oksanen",century:"20.",genre:"próza"},
+    {title:"1984",author:"Orwell",century:"20.",genre:"próza"},
+    {title:"Na západní frontě klid",author:"Remarque",century:"20.",genre:"próza"},
+    {title:"Petr a Lucie",author:"Rolland",century:"20.",genre:"próza"},
+    {title:"Pigmalion",author:"Shaw",century:"20.",genre:"drama"},
+    {title:"Jeden den Ivana Děnisoviče",author:"Solženicyn",century:"20.",genre:"próza"},
+    {title:"O myších a lidech",author:"Steinbeck",century:"20.",genre:"próza"},
+    {title:"Sofiina volba",author:"Styron",century:"20.",genre:"próza"},
+    {title:"Hobit aneb Cesta tam a zase zpátky",author:"Tolkien",century:"20.",genre:"próza"},
+    {title:"Egypťan Sinuhet",author:"Waltri",century:"20.",genre:"próza"},
+    {title:"Kočka na rozpálené plechové střeše",author:"Williams",century:"20.",genre:"drama"},
+    {title:"",author:"",century:"",genre:""},
+    {title:"",author:"",century:"",genre:""},
+    {title:"",author:"",century:"",genre:""},
 ];
 
 let filterOpen = false;
@@ -90,6 +115,36 @@ document.getElementById("filtr2").addEventListener("click", () => {
                     <p><label><input type="checkbox" value="Dickens" class="author">Dickens</label></p>
                     <p><label><input type="checkbox" value="Dostojevský" class="author">Dostojevsý</label></p>
                     <p><label><input type="checkbox" value="Erben" class="author">Erben</label></p>
+                    <p><label><input type="checkbox" value="Flaubert" class="author">Flaubert</label></p>
+                    <p><label><input type="checkbox" value="Gogol" class="author"></label></p>
+                    <p><label><input type="checkbox" value="Havlíček" class="author"></label></p>
+                    <p><label><input type="checkbox" value="Hugo " class="author"></label></p>
+                    <p><label><input type="checkbox" value="Mácha" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
+                    <p><label><input type="checkbox" value="" class="author"></label></p>
                 </div>
             </div>
             <button id="vyhledat">Vyhledat</button>
@@ -171,6 +226,10 @@ function addToList(book) {
         return;
     }
     
+    if (listContainer.children.length >= 20) {
+        alert("K maturitě dvacet knížek stačí ;)");
+        return;
+    }
 
     if (authorBooks.length >= 2) {
         alert(`Od jednoho autora můžete přidat jenom dvě knížky.`);
@@ -217,11 +276,8 @@ function loadBookList() {
     });
 }
 
-window.addEventListener("DOMContentLoaded", loadBookList);
-
-// Add this function to update the requirements display
 function updateRequirements() {
-    const listBooks = [...document.querySelectorAll("#list div")];  // Books in the list
+    const listBooks = [...document.querySelectorAll("#list div")];  
     const genreCount = {
         poezie: 0,
         próza: 0,
@@ -230,17 +286,15 @@ function updateRequirements() {
     const centuryCount = {
         "18.": 0,
         "19.": 0,
-        "20.": 0,  // worldwide
-        "20.c": 0 // Czechia
+        "20.": 0, 
+        "20.c": 0 
     };
 
-    // Count the genres and centuries of the books in the list
     listBooks.forEach(bookDiv => {
-        const bookTitle = bookDiv.dataset.title;  // The title of the book in the list
-        const bookData = books.find(b => b.title === bookTitle);
+        const bookTitle = bookDiv.dataset.title?.trim().toLowerCase();
+        const bookData = books.find(b => b.title.trim().toLowerCase() === bookTitle);
 
         if (bookData) {
-            // Count genres and centuries
             if (bookData.genre) genreCount[bookData.genre]++;
             if (bookData.century === '18.') centuryCount["18."]++;
             else if (bookData.century === '19.') centuryCount["19."]++;
@@ -249,7 +303,6 @@ function updateRequirements() {
         }
     });
 
-    // Update the requirements section
     const requirementsDiv = document.getElementById("requirements");
     requirementsDiv.innerHTML = `
         <ul>
@@ -260,41 +313,21 @@ function updateRequirements() {
         <ul>
             <p>18. století: zbývá ${Math.max(0, 2 - centuryCount["18."])}</p>
             <p>19. století: zbývá ${Math.max(0, 3 - centuryCount["19."])}</p>
-            <p>20. a 21. století: zbývá (celosvětově): ${Math.max(0, 4 - centuryCount["20."])}</p> 
+            <p>20. a 21. století (celosvětově): zbývá ${Math.max(0, 4 - centuryCount["20."])}</p> 
             <p>20. století (Česko): zbývá ${Math.max(0, 5 - centuryCount["20.c"])}</p>
         </ul>
     `;
 }
 
-function addToList(book) {
-    const listContainer = document.getElementById("list");
-
-    const authorBooks = [...listContainer.children].filter(div =>
-        div.dataset.author === book.author
-    );
-
-    if (authorBooks.length >= 2) {
-        alert(`You can only add 2 books by ${book.author}.`);
-        return;
-    }
-
-    if ([...listContainer.children].some(div => div.dataset.title === book.title)) return;
-
+function addBook(title) {
+    const list = document.getElementById("list");
     const div = document.createElement("div");
-    div.dataset.title = book.title;
-    div.dataset.author = book.author;
-    div.innerHTML = `
-        <strong>${book.title}</strong> - ${book.author}
-        <button class="remove-btn">X</button>
-    `;
-
-    div.querySelector(".remove-btn").addEventListener("click", () => {
-        div.remove();
-        removeFromLocalStorage(book.title);
-        updateRequirements(); 
-    });
-
-    listContainer.appendChild(div);
-    saveToLocalStorage(book);
-    updateRequirements(); 
+    div.dataset.title = title;
+    div.textContent = title;
+    list.appendChild(div);
+    updateRequirements();
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    updateRequirements();
+});
