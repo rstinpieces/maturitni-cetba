@@ -2,6 +2,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
     text-align: center;
     margin: 0; 
 }
@@ -11,7 +12,7 @@ body {
     width: 100%;
     position: relative;
     margin: 0 auto; 
-    background-color: #649ad8;
+    background-color:#07305f;
 }
 
 #title {
@@ -55,8 +56,8 @@ body {
 
 #logo {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 30px;
+    left: 30px;
     width: 80px;
 }
 
@@ -96,8 +97,8 @@ body {
 }
 
 #search input {
-    width: 45%;
-    max-width: 300px;
+    width: 100%;
+    max-width: 900px;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #999;
