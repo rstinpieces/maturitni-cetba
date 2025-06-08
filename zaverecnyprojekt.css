@@ -13,6 +13,7 @@ body {
     position: relative;
     margin: 0 auto; 
     background-color:#07305f;
+    min-height:2000px;
 }
 
 #title {
@@ -23,7 +24,7 @@ body {
     display: flex;
     gap: 10px;
     align-items: flex-start;
-    justify-content: right;
+    justify-content: left;
     width: 100%;
     text-align: left;
 }
@@ -35,11 +36,24 @@ body {
     gap: 10px;
     text-align: left;
     padding: 30px;
+    max-width: 600px;
+    justify-content: left;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+#place{
+    flex:1;
 }
 
 #requirements {
     padding: 10px;
     font-weight: bold;
+    border: solid;
+    padding-right: 50px;
+}
+
+#zkouska{
     padding-right: 30px;
 }
 
@@ -85,6 +99,7 @@ body {
     overflow-y: auto;   
     width: 100%;        
     padding-right: 10px;
+    text-align: left;
 }
 
 .filter-column .author-container p {
@@ -103,4 +118,12 @@ body {
     font-size: 16px;
     border: 1px solid #999;
     border-radius: 4px;
+}
+button{
+    background-color: #76a0d1;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+#vyhledat{
+    max-height: 30px;
 }
